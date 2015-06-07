@@ -16,6 +16,8 @@
 
 define('WP_REDIS_HOST', 'wordpress.ma1nf4.0001.use1.cache.amazonaws.com');
 
+define('WP_HOME','http://dev.vincerandazzo.com');
+define('WP_SITEURL','http://dev.vincerandazzo.com');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
