@@ -1,3 +1,6 @@
+Wordpress Staging
+-----------------
+```
 sudo su
 apt-get update
 apt-get upgrade -y
@@ -32,3 +35,9 @@ chmod -R 744 .
 chown -R www-data:www-data .
 
 service apache2 restart
+```
+After Wordpress Is Configured
+-----------------------------
+```
+define('WP_REDIS_HOST', '');
+```
